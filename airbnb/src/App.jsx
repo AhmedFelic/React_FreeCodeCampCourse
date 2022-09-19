@@ -8,16 +8,11 @@ import Data from "../data.js"
 function App() {
 
   const data = Data.map(items =>{
-    return<Card
+    return(<Card
     key = {items.id}
-    image = {items.coverImg}
-    starImg = {img2}
-    rating={items.stats.rating}
-    reviewCount={items.stats.reviewCount}
-    country={items.location}
-    title={items.title}
-    price={items.price}
-    />
+    item={items}
+   /*Na isti nacin se moglo uraditi {...item}, samo bi se umjesto props.item.title pisalo item.title */
+    />) 
   })
 
   return (
