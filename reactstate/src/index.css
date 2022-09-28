@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Inter', sans-serif;
+ display:flex;
+justify-content:center;
+background-color: #141313;
+color: #D9D9D9;
+}
+.App>h1{
+  margin-top: 20px;
+}
+
+
+.round{
+  border: 1px solid black;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  margin-left: 150px;
+  margin-top: 10px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  margin-top: 30px;
+}
+
+.naslov{
+margin-left: 20px;
+}
+
+.round2{
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  position: absolute;
+  cursor: pointer;
+  align-items: center;
+  margin-left: 129px;
+  background-color: #737373;
+  color: #D9D9D9;
+  margin-top: -30px;
+}
+
+.round1{
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  position: absolute;
+  cursor: pointer;
+  align-items: center;
+  margin-left: 210px;
+  background-color: #737373;
+  color: #D9D9D9;
+  margin-top: -30px;
+}
+
+
+.round2>span{
+  margin-left: 14px;
+  padding-bottom: 30px;
+  font-size: 35px;
+  position: absolute;
+  top: -2px;
+
+}
+.round1>span{
+  margin-left: 11px;
+  padding-bottom: 30px;
+  font-size: 30px;
+  position: absolute;
+  top: 4px;
+
+}
+
+
+.naslov1{
+  margin: auto;
+
+}
+.drugiDio>h2{
+ text-align: center;
+ margin-left: -20px;
+ margin-top: 20px;
+}
