@@ -1,0 +1,14 @@
+.box{
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  margin-left: 4px;
+  display: inline-block;
+  border-radius: 5px;
+
+}
+body{
+  width: 600px;
+  margin: auto;
+  margin-top: 3%;
+}
